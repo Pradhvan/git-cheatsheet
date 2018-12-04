@@ -8,8 +8,7 @@
 	    git clone <repo url>
 	    git remote add upstream <original repo link>
 ```
-  
-  ### Description:-
+### Description:-
 
   First clone the repository.
   Then set the upstream repository(the original repository)
@@ -27,7 +26,7 @@
 	  	 	git config --global core.editor "subl -n -w"
 ```
 
- ### Description:-
+### Description:-
  	Making a branch in the local forked repostory.
 
 
@@ -38,7 +37,7 @@
 ```
 
 
-	   #### Description:- 
+#### Description:- 
 	   		Make changes to the file, then add the file to staging area, from where you can commit.
 	   		[how to write a good commit message](http://api.coala.io/en/latest/Developers/Writing_Good_Commits.html)
 
@@ -47,7 +46,7 @@
 ```BASH
 		   git push origin <branch name>
 ```
-	   ### Description:-
+### Description:-
 	   	   Pushing the changes to the forked repository, so that you can make a pull request to the upstream.
 
 
@@ -60,7 +59,7 @@
 		 	git push -f origin <branch-name>
 ```
 
-		### Description:- 
+### Description:- 
 			Make the changes as requested by the reviewer.
 			Ammend the original commit.(Don't push multiple commits because all of the commits gets stacked into a single one, multiple commits don't override the original commit).
 			Force push the changes.
