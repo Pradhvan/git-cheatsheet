@@ -21,8 +21,8 @@
 	  
 	git checkout -b <branch name>
 ```
-	  ### 2.1: Add default text editor to the git
- ```BASH
+### 2.1: Add default text editor to the git
+```BASH
 	git config --global core.editor "subl -n -w"
 ```
 
