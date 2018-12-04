@@ -2,11 +2,13 @@
 
 
 ## Step1:  Create/clone a git repo.
-	 ```BASH
+	
+```BASH
+	    
 	    git clone <repo url>
 	    git remote add upstream <original repo link>
-	    
-	    ```
+```
+  
   ### Description:-
 
   First clone the repository.
@@ -15,23 +17,25 @@
 
 
 ## Step2: Create a branch to make local changes.
-	```BASH	
-	   git checkout -b <branch name>
 
-	   ```
+```BASH
+	  
+	   git checkout -b <branch name>
+```
 	  ### 2.1: Add default text editor to the git
-	  	 ```BASH
+ ```BASH
 	  	 	git config --global core.editor "subl -n -w"
-	  	 	```
+```
 
  ### Description:-
  	Making a branch in the local forked repostory.
 
 
 ## Step3: Make changes, add file and commit file to the branch.
-	```BASH
+```BASH
 	   git add --all/git add <file name>
-	   git commit ```
+	   git commit 
+```
 
 
 	   #### Description:- 
@@ -40,9 +44,9 @@
 
 
 ## Step4: Push the changes to the forked repository.
-		```BASH
+```BASH
 		   git push origin <branch name>
-		   ```
+```
 	   ### Description:-
 	   	   Pushing the changes to the forked repository, so that you can make a pull request to the upstream.
 
@@ -51,10 +55,10 @@
 
 ## Step6 : If changes requested, create change
 		 Create change and undo/amend commit
-		 ```BASH
+```BASH
 		 	git commit -a --amend
 		 	git push -f origin <branch-name>
-		 	```
+```
 
 		### Description:- 
 			Make the changes as requested by the reviewer.
